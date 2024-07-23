@@ -4,6 +4,7 @@
 
 - HTML e CSS
 - Bootstrap
+- Javascript
 - Git e Github
   <br>
 
