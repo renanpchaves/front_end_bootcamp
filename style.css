@@ -7,6 +7,17 @@
   box-sizing: border-box;
 }
 
+#map {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px;
+}
+
+#contactlist {
+  border: solid 1px;
+}
+
 body::before {
   display: block;
   content: "";
@@ -70,11 +81,16 @@ a {
   max-width: 70%;
 }
 
+#learn {
+  background: #94ec94;
+}
+
 #react {
   background-color: #c4c8ff;
 }
 
-#instructors {
+#instructors,
+#location {
   background: #c4c8ff;
 }
 

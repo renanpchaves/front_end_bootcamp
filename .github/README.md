@@ -9,5 +9,5 @@
 
 ## 🧵 Projeto
 
-O projeto se baseia em uma página que oferece um curso de desenvolvimento Front-End!
+O projeto se baseia em uma página totalmente responsiva que oferece um curso de desenvolvimento Front-End!
 O CrashCourse está disponível [Nesse link](https://www.youtube.com/watch?v=4sosXZsdy-s).
