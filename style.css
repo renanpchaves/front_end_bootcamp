@@ -7,10 +7,21 @@
   box-sizing: border-box;
 }
 
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
 #map {
   height: 100%;
   width: 100%;
   border-radius: 10px;
+}
+
+#insta {
+  background: -webkit-linear-gradient(#8134af, #dd2a7b, #f58529);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: none;
 }
 
 #footergo {
@@ -81,8 +92,14 @@ ul {
 #arrow {
   color: white;
 }
+
+.li,
+.ul {
+  border: 1px;
+}
+
 .accordion-item {
-  background: #c4c8ff;
+  border: 1px;
   min-width: 60%;
   max-width: 70%;
 }
@@ -91,13 +108,8 @@ ul {
   background: #94ec94;
 }
 
-#react {
-  background-color: #c4c8ff;
-}
-
-#instructors,
-#location {
-  background: #c4c8ff;
+#astro {
+  transform: scaleX(-1);
 }
 
 @media (max-width: 768px) {
