@@ -11,26 +11,29 @@
   height: 100%;
   width: 100%;
   border-radius: 10px;
-  border: solid 1px;
 }
 
-#contactlist {
-  border: solid 1px;
+#footergo {
+  color: #4e5761;
+  min-height: 2rem;
 }
-
 body::before {
   display: block;
   content: "";
   height: 60px;
 }
-a {
+a,
+ul {
   text-decoration: none;
 }
 
-#logo {
-  color: #b026ff;
+#modalfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 70%;
 }
-
+#logo,
 .txtweb {
   color: #b026ff;
 }
@@ -75,6 +78,9 @@ a {
   justify-content: space-between;
 }
 
+#arrow {
+  color: white;
+}
 .accordion-item {
   background: #c4c8ff;
   min-width: 60%;
